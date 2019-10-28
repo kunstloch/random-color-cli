@@ -1,14 +1,19 @@
-let col = process.argv[3];
-let lum = process.argv[2];
+const col = process.argv[3];
+const lum = process.argv[2];
 
-var randomColor = require('randomcolor'); // import the script
-var color = randomColor({
+// import and use randomcolor
+const randomColor = require('randomcolor');
+
+// Returns a hex code for a 'truly random' color
+const color = randomColor({
   luminosity: lum,
   hue: col
 });
 
+// import and use chalk
 const chalk = require('chalk');
 
+// log out colored box with the hex-code inside
 for (i = 0; i < 3; i++) {
   console.log(chalk.hex(color)('#################'));
 }
