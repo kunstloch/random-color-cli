@@ -19,12 +19,17 @@ to get random hex code:
 
 ``$ node rainbow``
 
+result look like this:
+
+![random-color-box](./rainbow02.PNG)
+
+
 to get random color with special luminosity and hue use rainbow like this:
 
 `` $ node rainbow light red ``
 
 
-result will be like this:
+result look like this:
 
 ![random-color-box](./rainbow01.PNG)
 
