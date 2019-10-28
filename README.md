@@ -40,7 +40,7 @@ result look like this:
 
 ## used libraries
 
-to get random color: [randomcolor](https://www.npmjs.com/package/randomcolor)
+to get random color: [randomcolor - npm](https://www.npmjs.com/package/randomcolor)
 
-to get colored output: [chalk](https://www.npmjs.com/package/chalk)
+to get colored output: [chalk - npm](https://www.npmjs.com/package/chalk) 
 
