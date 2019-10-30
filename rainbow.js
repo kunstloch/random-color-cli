@@ -14,12 +14,12 @@ const color = randomColor({
 const chalk = require('chalk');
 
 // log out colored box with the hex-code inside
-for (i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   console.log(chalk.hex(color)('#################'));
 }
 console.log(chalk.hex(color)('###           ###'));
 console.log(chalk.hex(color)('### ', color, ' ###'));
 console.log(chalk.hex(color)('###           ###'));
-for (i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   console.log(chalk.hex(color)('#################'));
 }
